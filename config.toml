@@ -1,0 +1,22 @@
+baseurl = "https://static.grinnell.edu/"
+title = "static.Grinnell.edu"
+author = "Mark A. McFate"
+canonifyurls = true
+paginate = 3
+
+theme = "hugo-theme-lean-launch-page"
+custom_css = "local.css"
+
+# googleAnalytics = "UA-123456"
+
+[params]
+  build = 2
+  tagline = "Welcome to the static.Grinnell.edu landing page at Grinnell College!"
+  abstract = "This landing page is designed solely to provide navigation to the site/services listed below."
+
+  # mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
+  #
+  # twitter = "https://twitter.com/MyNewProduct"
+  # facebook = "https://facebook.com/MyNewProduct"
+  # instagram = "https://instagram.com/MyNewProduct"
+  # googleplus = "https://plus.google.com/+MyNewProduct"
