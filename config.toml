@@ -6,8 +6,7 @@ paginate = 3
 
 theme = "hugo-theme-lean-launch-page"
 custom_css = "local.css"
-
-# googleAnalytics = "UA-123456"
+googleAnalytics = "UA-131150861-3"
 
 [params]
   build = 5
