@@ -1,17 +1,16 @@
-baseurl = "https://static.grinnell.edu/"
-title = "static.Grinnell.edu"
-author = "Mark A. McFate"
-canonifyurls = true
-paginate = 3
+#baseurl = "https://static.grinnell.edu/"
+#title = "static.Grinnell.edu"
+#author = "Mark A. McFate"
+#canonifyurls = true
+#paginate = 3
 
-theme = "hugo-theme-lean-launch-page"
-custom_css = "local.css"
-googleAnalytics = "UA-131150861-3"
+#theme = "hugo-theme-lean-launch-page"
+#custom_css = "local.css"
+#googleAnalytics = "UA-131150861-3"
 
-[params]
-  build = 5
-  tagline = "Welcome to the static.Grinnell.edu landing page at Grinnell College!"
-  abstract = "This landing page is designed solely to provide navigation to the sites/services listed below."
+#[params]
+#  build = 5
+#  abstract = "This landing page is designed solely to provide navigation to the sites/services listed below."
 
   # mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
   #
@@ -19,3 +18,22 @@ googleAnalytics = "UA-131150861-3"
   # facebook = "https://facebook.com/MyNewProduct"
   # instagram = "https://instagram.com/MyNewProduct"
   # googleplus = "https://plus.google.com/+MyNewProduct"
+
+  baseurl = "https://themes.gohugo.io/theme/hugo-theme-lean-launch-page/"
+  title = "Summit Dweller"
+  author = "Mark A. McFate, but mostly Mackenzie G. McFate"
+  canonifyurls = true
+  paginate = 3
+
+  theme = "hugo-theme-lean-launch-page"
+
+  googleAnalytics = "UA-123456"
+
+  [params]
+  tagline = "Welcome to Summit Dweller(AKA Mark McFate)'s personal blog!'"
+#  mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
+
+  twitter = "https://twitter.com/MyNewProduct"
+  facebook = "https://facebook.com/MyNewProduct"
+  instagram = "https://instagram.com/MyNewProduct"
+  googleplus = "https://plus.google.com/+MyNewProduct"
