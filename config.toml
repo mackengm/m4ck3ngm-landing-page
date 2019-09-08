@@ -13,6 +13,8 @@
     abstract = "This landing page is designed solely to provide navigation to the sites/services listed below."
     tagline = "Welcome to Summitt Dweller's personal server!"
     #mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
+    # Footer text
+    footertext = "<a href='https://summittdweller.com/blogs/mark' target='_blank'> <i class='fas fa-code'></i> &nbsp;&nbsp;Hugo site by the McFates.</a>"
 
     twitter = "https://twitter.com/SummittDweller"
     facebook = "https://facebook.com/Summitt.Dweller"

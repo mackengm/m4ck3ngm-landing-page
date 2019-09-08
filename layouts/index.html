@@ -34,6 +34,7 @@
     </ul>
 
     {{ block "main" . }}
+
     {{ end }}
 
     <h1>{{ .Site.Title }} &nbsp;&nbsp; </h1>
@@ -60,6 +61,8 @@
           </div>
         </a>
       {{ end }}
+
     </div>
+    {{ partial "footer.html" . }}
   </body>
 </html>
