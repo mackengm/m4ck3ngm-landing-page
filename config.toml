@@ -5,16 +5,16 @@
   paginate = 3
 
   theme = "hugo-theme-lean-launch-page"
-  #googleAnalytics = "UA-123456"
-  #custom_css = "local.css"
+  googleAnalytics = "UA-146526628-1"
+  custom_css = "local.css"
 
   [params]
-    build = 8
+    build = 12
     abstract = "This landing page is designed solely to provide navigation to the sites/services listed below."
     tagline = "Welcome to Summitt Dweller's personal server!"
     #mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
 
-    twitter = "https://twitter.com/MyNewProduct"
-    facebook = "https://facebook.com/MyNewProduct"
-    instagram = "https://instagram.com/MyNewProduct"
-    googleplus = "https://plus.google.com/+MyNewProduct"
+    twitter = "https://twitter.com/SummittDweller"
+    facebook = "https://facebook.com/Summitt.Dweller"
+    # instagram = "https://instagram.com/MyNewProduct"
+    # googleplus = "https://plus.google.com/+MyNewProduct"
