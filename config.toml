@@ -9,7 +9,7 @@
   custom_css = "local.css"
 
   [params]
-    build = 14
+    build = 15
     abstract = "This landing page is designed solely to provide navigation to the sites/services listed below."
     tagline = "Welcome to Summitt Dweller's personal server!"
     #mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
