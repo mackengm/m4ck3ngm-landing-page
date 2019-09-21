@@ -7,16 +7,16 @@ This project defines the landing page for my summittdweller.com server.
 This site is intended to be deployed using my [docker-bootstrap](https://github.com/McFateM/docker-bootstrap) approach, and the command stream used to launch [the page]( https://summittdweller.com/) on my DigitalOcean Docker droplet is:
 
 ```
-NAME=summittdweller-landing-page
-HOST=summittdweller.com
-IMAGE="summittdweller/summittdweller-landing"
+NAME=m4ck3ngm-landing-page
+HOST=m4ck3ngm.com
+IMAGE="m4ck3ngm/m4ck3ngm-landing-page"
 docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \
-    --label traefik.docker.network=traefik_webgateway \
+    --label traefik.docker.network=opt_webgateway \
     --label "traefik.frontend.rule=Host:${HOST}" \
     --label traefik.port=80 \
     --label com.centurylinklabs.watchtower.enable=true \
-    --network traefik_webgateway \
+    --network opt_webgateway \
     --restart always \
     ${IMAGE}
 ```
@@ -26,11 +26,11 @@ docker container run -d --name ${NAME} \
 The process of adding a site, or any addition/change, to this page is pretty straightforward...
 
 ```
-cd ~/Projects/summittdweller-landing-page
+cd ~/Sites/StaticSites/personal/m4ck3ngm-landing-page
 docker image build -t new-img .
 docker login
-docker tag new-img summittdweller/summittdweller-landing:latest
-docker push summittdweller/summittdweller-landing:latest
+docker tag new-img m4ck3ngm/m4ck3ngm-landing-page:latest
+docker push m4ck3ngm/m4ck3ngm-landing-page:latest
 ```
 
 Watchtower should *automagically* take care of the rest!

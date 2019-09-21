@@ -2,6 +2,6 @@
 title: "Mackenzie's Personal Blog"
 icon: "fas fa-magic"
 weight: 3
-address: https://summittdweller.com/blogs/m4ck3n
+address: https://blog.m4ck3ngm.com
 ---
-HIRE ME !<br/>Do as she says...please.
+The gal behind the code.

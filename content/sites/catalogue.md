@@ -1,7 +1,7 @@
 ---
-title: "The CATalogue"
+title: "The Catalogue"
 icon: "fas fa-cat"
 weight: 9
 address:
 ---
-A CATaclysmal CATholic CATastrophist's CATegorizing CATastrophe CATharsis.<br/>Yes, it's about cats.
+I like cats. (In progess)
