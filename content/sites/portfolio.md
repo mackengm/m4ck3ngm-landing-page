@@ -1,6 +1,6 @@
 ---
 title: "My Portfolio"
-icon: "fas fa-edit"
+icon: "fas fa-magic"
 weight: 1
 address: https://portfolio.m4ck3ngm.com
 ---
