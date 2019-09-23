@@ -9,14 +9,14 @@
   custom_css = "local.css"
 
   [params]
-    build = 15
-    abstract = "This landing page is designed solely to provide navigation to the sites/services listed below."
+    build = 16
+    abstract = "This is a temporary portfolio space while my official portfolio and blog are under construction. Thank you for your patience and interest in my work!"
     tagline = "Welcome to Mackenzie's personal server!"
     #mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
     # Footer text
     footertext = "<a href='https://m4ck3ngm.com' target='_blank' class='footer'> <i class='fas fa-code'></i> &nbsp;&nbsp;Hugo site by Mackenzie McFate.</a>"
 
-    twitter = "https://twitter.com/"
-    facebook = "https://facebook.com/"
-    # instagram = "https://instagram.com/MyNewProduct"
+    twitter = "https://twitter.com/M4CK3NGM"
+    facebook = "https://www.facebook.com/mackenzie.mcfate"
+    instagram = "https://www.instagram.com/m4ck3ngm/"
     # googleplus = "https://plus.google.com/+MyNewProduct"

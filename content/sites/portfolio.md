@@ -1,7 +1,7 @@
 ---
 title: "My Portfolio"
 icon: "fas fa-magic"
-weight: 1
-address: https://portfolio.m4ck3ngm.com
+weight: 5
+address: https://m4ck3ngm.com
 ---
-See some of my projects!
+My apologies; my official portfolio is under construction at this time.

@@ -37,7 +37,7 @@ body {
 	h1 {
 		margin-top: 5%;
 		margin-bottom: 0;
-		color: #3e660a;        // #06385d; /* title color */
+		color: #812E80;        // #06385d; /* title color */
 		font-family: "Nunito";
 		font-size: 3.4rem;
 		letter-spacing: 2px;
@@ -45,7 +45,7 @@ body {
 	}
 
   h2 {
-    color: #3e660a;  /* box header color */
+    color: #812E80;  /* box header color */
   }
 
   span.logo{
@@ -171,7 +171,7 @@ body {
 
 div .big-button {
   display: block;
-  border: 4px solid #7c9c52; /*landing page box border color */
+  border: 4px solid #000000; /*landing page box border color */
   padding: 10px;
   margin: 5px;
 }

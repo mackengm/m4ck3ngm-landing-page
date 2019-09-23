@@ -1,22 +1,22 @@
-  baseurl = "https://summittdweller.com/"
-  title = "Summitt Dweller"
-  author = "Mark A. McFate, but mostly Mackenzie G. McFate"
+  baseurl = "https://m4ck3ngm.com/"
+  title = "Mackenzie McFate"
+  author = "Mackenzie McFate"
   canonifyurls = true
   paginate = 3
 
   theme = "hugo-theme-lean-launch-page"
-  googleAnalytics = "UA-146526628-1"
+  #googleAnalytics = "UA-146526628-1"
   custom_css = "local.css"
 
   [params]
-    build = 14
-    abstract = "This landing page is designed solely to provide navigation to the sites/services listed below."
-    tagline = "Welcome to Summitt Dweller's personal server!"
+    build = 15
+    abstract = "This is a temporary portfolio space while my official portfolio and blog are under construction. Thank you for your patience and interest in my work!"
+    tagline = "Welcome to Mackenzie's personal server!"
     #mailchimpURL = "//my-account.mailchimp.com/my-subscriber-url"
     # Footer text
-    footertext = "<a href='https://summittdweller.com/blogs/mark' target='_blank' class='footer'> <i class='fas fa-code'></i> &nbsp;&nbsp;Hugo site by the McFates.</a>"
+    footertext = "<a href='https://m4ck3ngm.com' target='_blank' class='footer'> <i class='fas fa-code'></i> &nbsp;&nbsp;Hugo site by Mackenzie McFate.</a>"
 
-    twitter = "https://twitter.com/SummittDweller"
-    facebook = "https://facebook.com/Summitt.Dweller"
-    # instagram = "https://instagram.com/MyNewProduct"
+    twitter = "https://twitter.com/M4CK3NGM"
+    facebook = "https://www.facebook.com/mackenzie.mcfate"
+    instagram = "https://www.instagram.com/m4ck3ngm/"
     # googleplus = "https://plus.google.com/+MyNewProduct"
