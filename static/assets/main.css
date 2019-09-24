@@ -13,7 +13,7 @@ body {
 
 body {
 	box-sizing: border-box;
-	border-top: 3px solid #9eb382;
+	border-top: 3px solid #A3A3A3;
 	background-color: #FFFFFF;         // #EBEBEE; /* background color*/
 	padding: 20px 20px;
 	height: 100%;
@@ -62,7 +62,7 @@ body {
 	p {
 		padding: 1rem;
 		text-align: center;
-		color: #9eb382;
+		color: #A3A3A3;
 	}
 
 	form {
