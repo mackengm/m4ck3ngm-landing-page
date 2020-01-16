@@ -12,11 +12,11 @@ HOST=m4ck3ngm.com
 IMAGE="m4ck3ngm/m4ck3ngm-landing-page"
 docker container run -d --name ${NAME} \
     --label traefik.backend=${NAME} \
-    --label traefik.docker.network=opt_webgateway \
+    --label traefik.docker.network=web \
     --label "traefik.frontend.rule=Host:${HOST}" \
     --label traefik.port=80 \
     --label com.centurylinklabs.watchtower.enable=true \
-    --network opt_webgateway \
+    --network web \
     --restart always \
     ${IMAGE}
 ```
